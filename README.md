@@ -1,5 +1,8 @@
 # IP Country Finder
 
+<p align="center">
+<img src=imgs/logo.png width=400px>
+</p>
 IP Country Finder is a Python application that identifies the country of origin for any given IP address. Using advanced geolocation services, it provides instant insights into the geographical distribution of web traffic. This tool is ideal for developers, researchers, and IT professionals needing to map IP addresses to their corresponding countries.
 
 ## Prerequisites
@@ -10,7 +13,7 @@ Before you begin, ensure you have met the following requirements:
 - The `requests` library installed. If you haven't installed it yet, you can do so by running
 
 ```
-pip install requests
+pip3 install requests
 ```
 
 ## How to Run
@@ -29,11 +32,19 @@ pip install requests
 
 3. Make sure you add the list of IPs you need to check in `ips.txt` file.
 
+<p align="center">
+   <img src=imgs/ips.png width=300px>
+</p>
+
 4. Run the script.
 
    ```
    python3 app.py
    ```
+
+<p align="center">
+   <img src=imgs/output.png width=500px>
+</p>
 
 ### Saving Results to a File
 
